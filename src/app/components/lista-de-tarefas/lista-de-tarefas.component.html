@@ -1,0 +1,6 @@
+<ul>
+    <li *ngFor="let item of lista">
+        <input type="checkbox" name="check" [(ngModel)]="item.feito">{{item.descricao}}</li>
+</ul>
+{{lista | json}}
+

@@ -1,0 +1,9 @@
+<input type="text" [(ngModel)] = "animal">
+<button (click)="addAnimal()">Add</button>
+
+<p>{{lista | json}}</p>
+<ul>
+    <li *ngFor="let l of lista">{{l}}</li>
+</ul>
+
+
